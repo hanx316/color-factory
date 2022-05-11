@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.main {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 10vh
+}
+.color-palette {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.color-card {
+  width: 145px;
+  height: 145px;
+  margin: 0 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.color-card:hover {
+  transform: translateY(-16px);
+  transition: .3s;
+}
+.color-card .color {
+  height: 90px;
+  border-radius: 12px 12px 0 0;
+}
+.color-card .name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  background-color: white;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.1);
+  font-size: 20px;
+}
+
+.main-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.generate-color-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 48px;
+  background-color: #7371e4;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.1);
+  font-family: 'Pathagonia';
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+}
+.generate-color-btn:hover {
+  background-color: #7371ff;
+  transition: .3s;
+}
+
+.tip {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  height: 68px;
+  background-color: rgba(1, 1, 1, 0.8);
+  border-radius: 24px;
+  font-size: 18px;
+  color: #eeeeff;
+  transition: .3s;
+}
+.tip .em {
+  color: white;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(100%);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0%);
+}
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0%);
+}
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(100%);
+}
+.fade-enter-active,
+.fade-exit-active {
+  transition: opacity 500ms, transform 500ms;
+}
