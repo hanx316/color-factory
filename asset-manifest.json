@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/color-factory/static/css/main.61493bc0.css",
+    "main.css": "/color-factory/static/css/main.c126882b.css",
     "main.js": "/color-factory/static/js/main.2e2449c3.js",
     "static/media/PathagoniaRegular.svg": "/color-factory/static/media/PathagoniaRegular.f7be21ccabb95eafe7ec.svg",
     "static/media/PathagoniaRegular.eot": "/color-factory/static/media/PathagoniaRegular.f9b6ecdbde6a8c08162b.eot",
@@ -8,11 +8,11 @@
     "static/media/PathagoniaRegular.woff": "/color-factory/static/media/PathagoniaRegular.fd1fdd650dc3dc26b867.woff",
     "static/media/PathagoniaRegular.woff2": "/color-factory/static/media/PathagoniaRegular.de25ca0cdc5b09b901b7.woff2",
     "index.html": "/color-factory/index.html",
-    "main.61493bc0.css.map": "/color-factory/static/css/main.61493bc0.css.map",
+    "main.c126882b.css.map": "/color-factory/static/css/main.c126882b.css.map",
     "main.2e2449c3.js.map": "/color-factory/static/js/main.2e2449c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.61493bc0.css",
+    "static/css/main.c126882b.css",
     "static/js/main.2e2449c3.js"
   ]
 }
